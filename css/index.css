@@ -11,4 +11,25 @@
 
 .flying-goat-logo{
   height: 180px;
-}
+  margin: auto;
+  display: block;
+
+  }
+
+  .navbar{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Forum, serif;
+    font-size: 30px;
+  }
+
+  .navbar-nav{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin: auto;
+      width: 100%;
+      left: 0;
+  }
