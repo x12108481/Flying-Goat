@@ -13,7 +13,6 @@
   height: 180px;
   margin: auto;
   display: block;
-
   }
 
   .navbar{
@@ -33,3 +32,12 @@
       width: 100%;
       left: 0;
   }
+
+  .item{
+    height: 400px;
+    margin: auto;
+
+  }
+  .item .next {
+    width: 80%;
+    }
