@@ -9,6 +9,10 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
 
+body{
+  font-family: Forum, serif;
+}
+
 .flying-goat-logo{
   height: 180px;
   margin: auto;
@@ -41,3 +45,24 @@
   .item .next {
     width: 80%;
     }
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin: auto;;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-copyrights
+{
+  padding-left: 20px;
+  font-size:15px;
+
+}
