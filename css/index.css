@@ -1,13 +1,37 @@
 
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .navbar-nav {
+    padding-left: 0;
+  }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+}
+@media (min-width:481px)  { /* smartphones, Android phones, landscape iPhone */
+  .navbar-nav {
+    padding-left: 0;
+  }
+}
+@media (min-width:769px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .navbar-nav{
+    padding-left: 14%;
+  }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .navbar-nav{
+    padding-left: 16%;
+  }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+  .navbar-nav{
+    padding-left: 20%;
+  }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+  .navbar-nav{
+    padding-left: 25%;
+  }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+}
 
 body{
   font-family: Forum, serif;
@@ -20,46 +44,31 @@ body{
   }
 
   .navbar{
-    height: 85px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Forum, serif;
-    font-size: 30px;
+      font-size: 30px;
   }
 
-  .navbar-nav{
-      display: flex;
-      justify-content: center;
-      position: relative;
-      margin: auto;
-      width: 100%;
-      left: 0;
-  }
 
   .item{
     height: 400px;
     margin: auto;
+}
 
-  }
-  .item .next {
-    width: 80%;
-    }
-.footer{
+  .footer{
   position: absolute;
   right: 0;
+  left:0;
   bottom: 0;
-  left: 0;
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-  margin: auto;;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   display: flex;
   flex-direction: row;
 }
+
 .footer-copyrights
 {
   padding-left: 20px;
